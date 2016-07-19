@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<servlet>
+		<servlet-name>Colegio_web_2016</servlet-name>
+		<servlet-class>epis.unsa.Colegio_web_2016Servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Colegio_web_2016</servlet-name>
+		<url-pattern>/colegio_web_2016</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>agregarAlumno</servlet-name>
+		<servlet-class>epis.unsa.agregarAlumno</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>agregarAlumno</servlet-name>
+		<url-pattern>/agregarAlumno</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>verAlumnos</servlet-name>
+		<servlet-class>epis.unsa.verAlumnos</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>verAlumnos</servlet-name>
+		<url-pattern>/verAlumnos</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>alumnoPorAnho</servlet-name>
+		<servlet-class>epis.unsa.alumnoPorAnho</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>alumnoPorAnho</servlet-name>
+		<url-pattern>/alumnoPorAnho</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>modificarAlumno</servlet-name>
+		<servlet-class>epis.unsa.modificarAlumno</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>modificarAlumno</servlet-name>
+		<url-pattern>/modificarAlumno</url-pattern>
+	</servlet-mapping>
+	
+	
+		
+	<servlet>
+		<servlet-name>eliminarAlumno</servlet-name>
+		<servlet-class>epis.unsa.eliminarAlumno</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>eliminarAlumno</servlet-name>
+		<url-pattern>/eliminarAlumno</url-pattern>
+	</servlet-mapping>
+	
+	
+		
+		
+	<servlet>
+		<servlet-name>guardarModificacionAlumno</servlet-name>
+		<servlet-class>epis.unsa.guardarModificacionAlumno</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>guardarModificacionAlumno</servlet-name>
+		<url-pattern>/guardarModificacionAlumno</url-pattern>
+	</servlet-mapping>
+	
+	
+		
+	<servlet>
+		<servlet-name>agregarCurso</servlet-name>
+		<servlet-class>epis.unsa.agregarCurso</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>agregarCurso</servlet-name>
+		<url-pattern>/agregarCurso</url-pattern>
+	</servlet-mapping>
+	
+	
+		
+	<servlet>
+		<servlet-name>verCursos</servlet-name>
+		<servlet-class>epis.unsa.verCursos</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>verCursos</servlet-name>
+		<url-pattern>/verCursos</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+			
+	<servlet>
+		<servlet-name>eliminarCurso</servlet-name>
+		<servlet-class>epis.unsa.eliminarCurso</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>eliminarCurso</servlet-name>
+		<url-pattern>/eliminarCurso</url-pattern>
+	</servlet-mapping>
+	
+				
+	<servlet>
+		<servlet-name>modificarCurso</servlet-name>
+		<servlet-class>epis.unsa.modificarCurso</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>modificarCurso</servlet-name>
+		<url-pattern>/modificarCurso</url-pattern>
+	</servlet-mapping>
+	
+		
+			
+	<servlet>
+		<servlet-name>guardarModificacionCurso</servlet-name>
+		<servlet-class>epis.unsa.guardarModificacionCurso</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>guardarModificacionCurso</servlet-name>
+		<url-pattern>/guardarModificacionCurso</url-pattern>
+	</servlet-mapping>
+	
+	
+			
+	<servlet>
+		<servlet-name>cursosParaDocente</servlet-name>
+		<servlet-class>epis.unsa.cursosParaDocente</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>cursosParaDocente</servlet-name>
+		<url-pattern>/cursosParaDocente</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+		
+			
+	<servlet>
+		<servlet-name>agregarDocente</servlet-name>
+		<servlet-class>epis.unsa.agregarDocente</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>agregarDocente</servlet-name>
+		<url-pattern>/agregarDocente</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+			
+	<servlet>
+		<servlet-name>verDocentes</servlet-name>
+		<servlet-class>epis.unsa.verDocentes</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>verDocentes</servlet-name>
+		<url-pattern>/verDocentes</url-pattern>
+	</servlet-mapping>
+	
+	
+			
+	<servlet>
+		<servlet-name>modificarDocente</servlet-name>
+		<servlet-class>epis.unsa.modificarDocente</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>modificarDocente</servlet-name>
+		<url-pattern>/modificarDocente</url-pattern>
+	</servlet-mapping>
+	
+	
+			
+	<servlet>
+		<servlet-name>eliminarDocente</servlet-name>
+		<servlet-class>epis.unsa.eliminarDocente</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>eliminarDocente</servlet-name>
+		<url-pattern>/eliminarDocente</url-pattern>
+	</servlet-mapping>
+	
+	
+		
+			
+	<servlet>
+		<servlet-name>guardarModificacionDocente</servlet-name>
+		<servlet-class>epis.unsa.guardarModificacionDocente</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>guardarModificacionDocente</servlet-name>
+		<url-pattern>/guardarModificacionDocente</url-pattern>
+	</servlet-mapping>
+	
+		
+			
+	<servlet>
+		<servlet-name>iniciarSesionDocente</servlet-name>
+		<servlet-class>epis.unsa.iniciarSesionDocente</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>iniciarSesionDocente</servlet-name>
+		<url-pattern>/iniciarSesionDocente</url-pattern>
+	</servlet-mapping>
+	
+	
+			
+	<servlet>
+		<servlet-name>cerrarSesion</servlet-name>
+		<servlet-class>epis.unsa.cerrarSesion</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>cerrarSesion</servlet-name>
+		<url-pattern>/cerrarSesion</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+			
+	<servlet>
+		<servlet-name>cursosDelDocente</servlet-name>
+		<servlet-class>epis.unsa.cursosDelDocente</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>cursosDelDocente</servlet-name>
+		<url-pattern>/cursosDelDocente</url-pattern>
+	</servlet-mapping>
+	
+	
+			
+	<servlet>
+		<servlet-name>alumnoPorAnhoNota</servlet-name>
+		<servlet-class>epis.unsa.alumnoPorAnhoNota</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>alumnoPorAnhoNota</servlet-name>
+		<url-pattern>/alumnoPorAnhoNota</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>guardarNotas</servlet-name>
+		<servlet-class>epis.unsa.guardarNotas</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>guardarNotas</servlet-name>
+		<url-pattern>/guardarNotas</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>agregarTarea</servlet-name>
+		<servlet-class>epis.unsa.agregarTarea</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>agregarTarea</servlet-name>
+		<url-pattern>/agregarTarea</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>guardarTarea</servlet-name>
+		<servlet-class>epis.unsa.guardarTarea</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>guardarTarea</servlet-name>
+		<url-pattern>/guardarTarea</url-pattern>
+	</servlet-mapping>
+	
+	
+		
+	<servlet>
+		<servlet-name>verTareas</servlet-name>
+		<servlet-class>epis.unsa.verTareas</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>verTareas</servlet-name>
+		<url-pattern>/verTareas</url-pattern>
+	</servlet-mapping>
+	
+		
+	<servlet>
+		<servlet-name>verTareasPorAnhoYCurso</servlet-name>
+		<servlet-class>epis.unsa.verTareasPorAnhoYCurso</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>verTareasPorAnhoYCurso</servlet-name>
+		<url-pattern>/verTareasPorAnhoYCurso</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+		
+	<servlet>
+		<servlet-name>eliminarTarea</servlet-name>
+		<servlet-class>epis.unsa.eliminarTarea</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>eliminarTarea</servlet-name>
+		<url-pattern>/eliminarTarea</url-pattern>
+	</servlet-mapping>
+	
+	
+		
+	<servlet>
+		<servlet-name>modificarTarea</servlet-name>
+		<servlet-class>epis.unsa.modificarTarea</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>modificarTarea</servlet-name>
+		<url-pattern>/modificarTarea</url-pattern>
+	</servlet-mapping>
+	
+	
+		<servlet>
+		<servlet-name>guardarModificacionTarea</servlet-name>
+		<servlet-class>epis.unsa.guardarModificacionTarea</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>guardarModificacionTarea</servlet-name>
+		<url-pattern>/guardarModificacionTarea</url-pattern>
+	</servlet-mapping>
+	
+	
+		<servlet>
+		<servlet-name>iniciarSesionAlumno</servlet-name>
+		<servlet-class>epis.unsa.iniciarSesionAlumno</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>iniciarSesionAlumno</servlet-name>
+		<url-pattern>/iniciarSesionAlumno</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+		<servlet>
+		<servlet-name>verTodasNotasAlumno</servlet-name>
+		<servlet-class>epis.unsa.verTodasNotasAlumno</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>verTodasNotasAlumno</servlet-name>
+		<url-pattern>/verTodasNotasAlumno</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+		<servlet>
+		<servlet-name>verTodasTareasAlumno</servlet-name>
+		<servlet-class>epis.unsa.verTodasTareasAlumno</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>verTodasTareasAlumno</servlet-name>
+		<url-pattern>/verTodasTareasAlumno</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+		<servlet>
+		<servlet-name>verTareaAlumnoPorCurso</servlet-name>
+		<servlet-class>epis.unsa.verTareaAlumnoPorCurso</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>verTareaAlumnoPorCurso</servlet-name>
+		<url-pattern>/verTareaAlumnoPorCurso</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+		<servlet>
+		<servlet-name>iniciarSesion</servlet-name>
+		<servlet-class>epis.unsa.iniciarSesion</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>iniciarSesion</servlet-name>
+		<url-pattern>/iniciarSesion</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+		<servlet>
+		<servlet-name>agregarAdministrador</servlet-name>
+		<servlet-class>epis.unsa.agregarAdministrador</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>agregarAdministrador</servlet-name>
+		<url-pattern>/agregarAdministrador</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>iniciarSesionAdministrador</servlet-name>
+		<servlet-class>epis.unsa.iniciarSesionAdministrador</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>iniciarSesionAdministrador</servlet-name>
+		<url-pattern>/iniciarSesionAdministrador</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>verComunicados</servlet-name>
+		<servlet-class>epis.unsa.verComunicados</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>verComunicados</servlet-name>
+		<url-pattern>/verComunicados</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>agregarComunicado</servlet-name>
+		<servlet-class>epis.unsa.agregarComunicado</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>agregarComunicado</servlet-name>
+		<url-pattern>/agregarComunicado</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>modificarComunicado</servlet-name>
+		<servlet-class>epis.unsa.modificarComunicado</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>modificarComunicado</servlet-name>
+		<url-pattern>/modificarComunicado</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>eliminarComunicado</servlet-name>
+		<servlet-class>epis.unsa.eliminarComunicado</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>eliminarComunicado</servlet-name>
+		<url-pattern>/eliminarComunicado</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>guardarModificacionComunicado</servlet-name>
+		<servlet-class>epis.unsa.guardarModificacionComunicado</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>guardarModificacionComunicado</servlet-name>
+		<url-pattern>/guardarModificacionComunicado</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+		<servlet>
+		<servlet-name>inicio</servlet-name>
+		<servlet-class>epis.unsa.inicio</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>inicio</servlet-name>
+		<url-pattern>/inicio</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	
+	<welcome-file-list>
+		<welcome-file>inicio</welcome-file>
+	</welcome-file-list>
+</web-app>
