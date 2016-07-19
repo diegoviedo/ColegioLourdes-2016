@@ -23,7 +23,7 @@ import javax.servlet.http.HttpServletResponse;
 					@SuppressWarnings("unchecked")
 					List<curso> cursos = (List<curso>) q.execute();
 					request.setAttribute("cursos", cursos);
-					RequestDispatcher rd = request.getRequestDispatcher("VerTodasTareasAlumno.jsp");
+					RequestDispatcher rd = request.getRequestDispatcher("verTodasTareasAlumno.jsp");
 					rd.forward(request, resp);
 				}catch(Exception e){
 					System.out.println(e);

@@ -43,7 +43,9 @@ public class agregarDocente extends HttpServlet {
 		PersistenceManager pm = PMF.get().getPersistenceManager();
 		try{
 			pm.makePersistent(d);
-			resp.getWriter().println("Datos grabados correctamente");
+
+			resp.sendRedirect("comoAdministrador.jsp");
+			
 		}catch(Exception e){
 			System.out.println(e);
 			resp.getWriter().println("Ocurrió un error, <a href='index.jsp'>vuelva a intentarlo</a>");

@@ -60,33 +60,7 @@
  <h3>LISTA DE ALUMNOS</h3>
  
 
-  	<table width=600px>
-		<tr>
-		<td align="center"> ID </td>
-		<td align="center"> CODIGO </td>			
-		<td align="center">NOMBRES</td>
-		<td align="center">APELLIDOS</td>
-		<td align="center">ESTADO</td>
-		
-		</tr>
   
-  <%List<alumno> alumnos = (List<alumno>) request.getAttribute("alumnos");%>
-  <%for(alumno p :alumnos){%>
-  
-			<tr>
-			<td align="center" ><%=p.getId() %></td>
-			<td align="center" ><%=p.getCodigo() %></td>			
-			<td align="center"><%=p.getNombres() %></td>
-			<td align="center"><%=p.getApellidos() %></td>
-			<td align="center"><%=p.getEstado() %></td>
-			<td align="center"><form style='height:5px;'   action ="ad"><input type="hidden" name="valorOculto"  value="xD"  ><input style='width:110px' type="submit" value ="MODIFICAR"></form></td>
-			<td align="center"><input style='width:110px' type="submit" value ="ELIMINAR"></td>
-			
-			</tr>
-		
-  <input type="hidden" name="valorOculto"  value="xD"  >
-  <%}%>
-  </table>
   
   
   

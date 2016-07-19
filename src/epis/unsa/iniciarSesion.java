@@ -75,7 +75,7 @@ public class iniciarSesion extends HttpServlet {
 			
 			
 			if(!esta)
-				resp.sendRedirect("/index.html");
+				resp.sendRedirect("/inicio");
 			
 			
 		}catch(Exception e){
